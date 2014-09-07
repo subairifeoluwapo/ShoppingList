@@ -17,13 +17,19 @@ html {
 	list-style: none;
 }
 
+#siteName {
+	font-size: 1.5em;
+	color: #fff;
+	float: left;
+}
+
 .navBar ul li {
 
 	display: inline-block;
 	font-weight: bolder;
 	font-size: 1.2em;
 	font-family: 'Poiret One', cursive;
-	padding: .5em .5em;
+	padding: 1em .5em;
 	margin: .5em .5em;
 	
 }
@@ -38,4 +44,26 @@ html {
 }
 
 
-font-family: 'Rokkitt', serif;
+.slogan {
+	text-align: center;
+	font-family: 'Ubuntu Mono';
+	font-size: 2em;
+	color: rgba(45, 200, 45, 1);
+}
+
+
+.contacts {
+	font-family: 'Rokkitt';
+	background-color: #fff;
+	font-size: 0.9em;
+	text-align: center;
+	clear: both;
+	padding: 1em 2em;
+	color: #000;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
