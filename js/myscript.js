@@ -4,25 +4,29 @@
   var toMove;
   var toRemove;
 
+
+    
     $('#addItem').click(function () {
     	toAdd = $('#input').val();
-    	
+    	if (toAdd === '' && ' ' && '  ') {
+    		$('.validInput').append('<p>Enter a valid item name</p>');
+    	} else {
+
         $('#list').append('<li><input name="checkItem" class="checkbox" type="checkbox">' + toAdd + 
         					'        <button id="del">Delete</button></li>');
-        $('#input').val('').focus();
-        $('.cart').removeClass('welcome').addClass('newItems')
-    });
 
-    $('.checkbox').click(function () {
-    	 alert("fghghfh");
-        toMove = $('#list').val();
-        $("#list2").append('<li><input name="checkItem" class="checkbox" type="checkbox">' + toRemove + 
+        $('.checkbox').click(function () {
+        toMove = $('#input').val();
+        $("#list2").append('<li><input name="checkItem" class="checkbox" type="checkbox">' + toMove + 
         					'        <button id="del">Delete</button></li>');
+    	});
+
+    	$('#del').click(function() {
+    		alert("dfgnkdfg");
+   		 });
+    	}
+
+
     });
 
-    $('#list').on('change','input[type=checkbox]',function(evt){
-    var checkbox = $(evt.target),
-        toAdd = checkbox.parent().next('input[type=text]');
 
-    toAdd.css('text-decoration', checkbox.is(':checked') ? 'line-through' : 'none');
-});

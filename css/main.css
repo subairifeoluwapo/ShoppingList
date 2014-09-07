@@ -57,12 +57,11 @@ label {
 }
 
  #input {
-	border: dashed;
-	border-color: darkgreen;
+	border: none;
 	padding: .5em 0;
 	font-size: 1em;
 	font-family: 'Ubuntu Mono';
-	width: 30em;
+	width: 25em;
 }
 
 #addItem {
@@ -75,6 +74,13 @@ label {
 #addItem:hover {
 	color: green;
 	outline-style: inset;
+}
+
+.validInput {
+	font-weight: bolder;
+	color: red;
+	font-size: 1.5em;
+	font-family: 'Ubuntu Mono';
 }
 
 .cart {
@@ -92,19 +98,11 @@ label {
 }
 
 .welcome div {
-	padding: 0 7em;
+	padding: 0 5em;
 	display: inline-block;
 }
 
-#list {
-	padding: 0;
-	font-size: 1.2em;
-}
 
-#list2 {
-	padding: 0;
-	font-size: 1.2em;
-}
 
 .newItems {
 	color: #fff;
@@ -123,8 +121,37 @@ label {
 	color: red;
 }
 
+.confirmedItems {
+	color: #fff;
+}
+
+.confirmedItems ul {
+	list-style: none;
+}
+
+.confirmedItems button {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+.confirmedItems button:hover {
+	color: red;
+}
+
+#list {
+	padding: 0;
+	font-size: 1.1em;
+}
+
+#list2 {
+	background-color: #fff;
+	color: #000;
+	padding: 0;
+	font-size: 1.1em;
+}
 
 .slogan {
+	margin-top: 3.2em;
 	text-align: center;
 	font-family: 'Ubuntu Mono';
 	font-size: 1.3em;
