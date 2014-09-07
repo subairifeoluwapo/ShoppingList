@@ -1,0 +1,41 @@
+html {
+	background-image: url("../img/plainGrass.jpg");
+	background-color: green;
+	background-size: cover;
+}
+
+.navBar { 
+	width: 100%;
+	background-image: url("../img/wood2.jpg");
+	background-size: cover;
+	background-color: brown;
+	
+}
+
+.navBar ul {
+	text-align: right;
+	list-style: none;
+}
+
+.navBar ul li {
+
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 1.2em;
+	font-family: 'Poiret One', cursive;
+	padding: .5em .5em;
+	margin: .5em .5em;
+	
+}
+
+.navBar ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navBar ul li a:hover {
+	color: green;
+}
+
+
+font-family: 'Rokkitt', serif;
