@@ -84,18 +84,26 @@ label {
 }
 
 .welcome {
+	background-color: rgba(0, 0, 0, .6);
 	margin: 0 20em;
 	border: solid;
 	border-color: darkgreen;
 	color: #fff;
 }
 
-.carthide div {
+.welcome div {
+	padding: 0 7em;
 	display: inline-block;
 }
 
-.carthide div:nth-child(2) ul li {
-	background-color: white;
+#list {
+	padding: 0;
+	font-size: 1.2em;
+}
+
+#list2 {
+	padding: 0;
+	font-size: 1.2em;
 }
 
 .newItems {
@@ -106,31 +114,15 @@ label {
 	list-style: none;
 }
 
-.newItems a {
-	color: #fff;
+.newItems button {
+	color: darkgreen;
 	text-decoration: none;
 }
 
-.newItems a:hover {
-	color: darkgreen;
+.newItems button:hover {
+	color: red;
 }
 
-.confirmedItems a {
-	color: #000;
-	text-decoration: none;
-}
-
-.confirmedItems a:hover {
-	color: darkgreen;
-}
-
-.confirmedItems {
-	color: #fff;
-}
-
-.confirmedItems ul {
-	list-style: none;
-}
 
 .slogan {
 	text-align: center;

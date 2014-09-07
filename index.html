@@ -23,9 +23,9 @@
 
 <section>
 	<div>
-		<form action="/" method="get">
+		<form>
 			<label for="addItem">Add item to list</label>
-			<input type="text"  name="item_name" id="input"><button type="submit" id="addItem" value="Add">Add</button>
+			<input type="text"  id="input"><button type="button" id="addItem" value="Add">Add</button>
 			<p class="validInput"></p>
 		</form>
 			<div class="cart">
@@ -33,32 +33,16 @@
 					<h3>Your Shopping Cart</h3>
 					<p>You have no items in the Cart</p>
 					<p>Add items to your cart to get started</p>
-				</div>
-				<div class="carthide">
-					<div class="newItems">
+						<div class="newItems">
 						<h3>New Items</h3>
-						<ul>
-							<li>
-							<input name="checkItem" class="checkbox" type="checkbox">
-							<a href="#del" id="del">Delete</a>
-							</li>
-						</ul>
-					</div>
-					<div class=" confirmedItems">
+						<ul id="list"></ul>
+						</div>
+						<div class="confirmedItems">
 						<h3>Confirmed Items</h3>
-						<ul>
-							<li>
-							<input name="checkItem" class="checkbox" type="checkbox">
-							<a href="#del" id="del">Delete</a>
-							</li>
-						</ul>
-					</div>
+						<ul id="list2"></ul>
+						</div>
 				</div>
-					<div>
-					</div>
 			</div>
-		
-	
 	</div>
 </section>
 
