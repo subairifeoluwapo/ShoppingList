@@ -23,12 +23,35 @@
 
 <section>
 	<div>
-		<form>
+		<form action="/" method="get">
 			<label for="addItem">Add item to list</label>
-			<input type="text" id="addItem"><button id="addButton">Add</button>
+			<input type="text"  name="item_name" id="input"><button type="submit" id="addItem" value="Add">Add</button>
+			<p class="validInput"></p>
 		</form>
-		<textfield>
-		</textfield>
+			<div class="cart">
+				<h3>Your Shopping Cart</h3>
+				<div class="welcome">
+					<p>You have no items in the Cart</p>
+					<p>Add items to your cart to get started</p>
+				</div>
+				<div class="cart hide">
+					<div class="newItems">
+						<h3>New Items</h3>
+						<ul>
+							
+						</ul>
+					</div>
+					<div class="confirmedItems">
+						<h3>Confirmed Items</h3>
+						<ul>
+						</ul>
+					</div>
+					<div>
+					</div>
+				</div>
+			</div>
+		
+	
 	</div>
 </section>
 
