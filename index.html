@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ShoppingList</title>
+	<link  rel="resetsheet" href="css/reset.css" type="test/css" media="screen" title="notitle" charset="utf-8">
+	<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" title="notitle" charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Rokkitt' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<header>
+		<nav class="navBar">
+			<ul>
+				<li id="siteName">Sub~Air Shoppers</li>
+				<li><a href="">Sign In</a></li>
+				<li><a href="">Sign Up</a></li>
+			</ul>
+		</nav>
+		
+</header>
+
+<section>
+	<div>
+		<form>
+			<label for="addItem">Add item to list</label>
+			<input type="text"  id="input"><button type="button" id="addItem" value="Add">Add</button>
+			<div class="validInput"></div>
+		</form>
+			<div class="cart">
+				<div class="welcome">
+					<h3 class="h3">Your Shopping Cart</h3>
+					<p class="p">You have no items in the Cart</p>
+					<p class="p2">Add items to your cart to get started</p>
+						<div class="newItems">
+						<h3>New Items</h3>
+						<ul id="list"></ul>
+						</div>
+						<div class="confirmedItems">
+						<h3>Confirmed Items</h3>
+						<ul id="list2"></ul>
+						</div>
+				</div>
+			</div>
+	</div>
+</section>
+
+<footer>
+	<div class="slogan">
+			<p>We help you remember what you want</p>
+	</div>
+	<div class="contacts">
+		<a href="http://twitter.com/subair_origins"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon" /></a>
+		<a href="http://facebook.com/SubairIfeoluwapo"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"/></a>
+		<p><strong>&copy; 2014 Sub~Air Shoppers.</strong></p>
+	</div>
+</footer>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/myscript.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+html {
+	background-image: url("../img/plainGrass.jpg");
+	background-color: green;
+	background-size: cover;
+}
+
+.navBar { 
+	width: 100%;
+	background-image: url("../img/wood2.jpg");
+	background-size: cover;
+	background-color: brown;
+	opacity: .8;
+	
+}
+
+.navBar ul {
+	text-align: right;
+	list-style: none;
+}
+
+#siteName {
+	font-size: 1.5em;
+	color: #fff;
+	float: left;
+}
+
+.navBar ul li {
+
+	display: inline-block;
+	font-weight: bolder;
+	font-size: 1.2em;
+	font-family: 'Poiret One', cursive;
+	padding: 1em .5em;
+	margin: .5em .5em;
+	
+}
+
+.navBar ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navBar ul li a:hover {
+	color: darkgreen;
+}
+
+form {
+	display: inline-block;
+	margin: 1em 1em;
+	padding: 1em 1em;
+}
+
+label {
+	color: #fff;
+	font-family: 'Ubuntu Mono';
+	font-size: 1.5em;
+}
+
+ #input {
+	border: none;
+	padding: .5em 0;
+	font-size: 1em;
+	font-family: 'Ubuntu Mono';
+	width: 25em;
+}
+
+#addItem {
+	font-family: 'Ubuntu Mono';
+	font-size: 1em;
+	margin: 1em 1em;
+	padding: .5em .5em;
+}
+
+#addItem:hover {
+	color: green;
+	outline-style: inset;
+}
+
+.validInput {
+	font-weight: bolder;
+	color: red;
+	font-size: 1.5em;
+	font-family: 'Ubuntu Mono';
+}
+
+.cart {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: #fff;
+}
+
+.welcome {
+	background-color: rgba(0, 0, 0, .6);
+	margin: 0 20em;
+	border: solid;
+	border-color: darkgreen;
+	color: #fff;
+}
+
+.welcome div {
+	padding: 0 5em;
+	display: inline-block;
+}
+
+
+
+.newItems {
+	color: #fff;
+}
+
+.newItems ul {
+	list-style: none;
+}
+
+.newItems button {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+.newItems button:hover {
+	color: red;
+}
+
+.confirmedItems {
+	color: #fff;
+}
+
+.confirmedItems ul {
+	list-style: none;
+}
+
+.confirmedItems button {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+.confirmedItems button:hover {
+	color: red;
+}
+
+#list {
+	padding: 0;
+	font-size: 1.1em;
+}
+
+#list2 {
+	background-color: #fff;
+	color: #000;
+	padding: 0;
+	font-size: 1.1em;
+}
+
+.slogan {
+	margin-top: 3.2em;
+	text-align: center;
+	font-family: 'Ubuntu Mono';
+	font-size: 1.3em;
+	color: #fff;
+}
+
+
+.contacts {
+	font-family: 'Rokkitt';
+	background-color: rgba(255, 255, 255, .5);
+	font-size: 0.9em;
+	text-align: center;
+	clear: both;
+	padding: 1em 2em;
+	color: #000;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+.contacts p {
+	font-size: 1em;
+}
