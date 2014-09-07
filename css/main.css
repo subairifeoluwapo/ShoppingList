@@ -41,7 +41,7 @@ html {
 }
 
 .navBar ul li a:hover {
-	color: green;
+	color: darkgreen;
 }
 
 form {
@@ -77,18 +77,65 @@ label {
 	outline-style: inset;
 }
 
+.cart {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	color: #fff;
+}
 
+.welcome {
+	margin: 0 20em;
+	border: solid;
+	border-color: darkgreen;
+	color: #fff;
+}
 
+.carthide div {
+	display: inline-block;
+}
 
+.carthide div:nth-child(2) ul li {
+	background-color: white;
+}
 
+.newItems {
+	color: #fff;
+}
 
+.newItems ul {
+	list-style: none;
+}
 
+.newItems a {
+	color: #fff;
+	text-decoration: none;
+}
 
+.newItems a:hover {
+	color: darkgreen;
+}
+
+.confirmedItems a {
+	color: #000;
+	text-decoration: none;
+}
+
+.confirmedItems a:hover {
+	color: darkgreen;
+}
+
+.confirmedItems {
+	color: #fff;
+}
+
+.confirmedItems ul {
+	list-style: none;
+}
 
 .slogan {
 	text-align: center;
 	font-family: 'Ubuntu Mono';
-	font-size: 2em;
+	font-size: 1.3em;
 	color: #fff;
 }
 
