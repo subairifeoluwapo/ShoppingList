@@ -2,7 +2,6 @@
 
   var toAdd;
   var toMove;
-  var toRemove;
 
 
     
@@ -10,21 +9,27 @@
     	toAdd = $('#input').val();
     	if (toAdd === '' && ' ' && '  ') {
     		$('.validInput').append('<p>Enter a valid item name</p>');
-    	} else {
+    	} 
+    		else {
 
-        $('#list').append('<li><input name="checkItem" class="checkbox" type="checkbox">' + toAdd + 
-        					'        <button id="del">Delete</button></li>');
+		    	$('.h3').remove();
+		    	$('.p').remove();
+		    	$('.p2').remove();
 
-        $('.checkbox').click(function () {
-        toMove = $('#input').val();
-        $("#list2").append('<li><input name="checkItem" class="checkbox" type="checkbox">' + toMove + 
-        					'        <button id="del">Delete</button></li>');
-    	});
+		        $('#list').append('<li><input name="checkItem" class="checkbox" type="checkbox">' + toAdd + 
+		        					'        <button id="del">Delete</button></li>');
 
-    	$('#del').click(function() {
-    		alert("dfgnkdfg");
-   		 });
-    	}
+		        $('.checkbox').click(function () {
+		        toMove = $('#input').val();
+		        $("#list2").append('<li><input name="checkItem" class="checkbox" type="checkbox">' + toMove + 
+		        					'        <button id="del">Delete</button></li>');
+		    	});
+
+		    	$('#del').click(function() {
+		    		alert("dfgnkdfg");
+		    		$()
+		   		 });
+    		}
 
 
     });
