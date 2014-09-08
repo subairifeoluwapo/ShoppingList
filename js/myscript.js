@@ -44,7 +44,7 @@ var shoppingApp = {
 		var checkbox = ('<input type="checkbox">');
 		var del = ('<button id="delete">Delete</button>')
 		if(shoppingApp.validate()) {
-			$('#newlist').append('<li>' + checkbox + " " + newItem + " " + del + '</li>');
+			$('#newlist').append('<li>' + checkbox + " " + item + " " + del + '</li>');
 			$('#newItem').val('');
 		}
 		return false;
