@@ -1,39 +1,10 @@
 
-
-	//var toAdd;
-	//var toMove;
-    //$('#addItem').click(function () {
-    	
-    	//toAdd = $('#newItem').val();
-    	//if (toAdd === '' || toAdd ===  ' ' || toAdd === '  ') {
-    		//$('.validInput').text('Enter a valid item name');
-    	//} 
-    		//else {
-		    	//$('.h3').remove();
-		    	//$('.p').remove();
-		    	//$('.p2').remove();
-		        //$('#newlist').append('<li class="listitem"><input name="checkItem" class="checkbox" type="checkbox">' + toAdd + 
-		        					//'        <button class="delete">Delete</button></li>');
-		        //$('#newItem').val('').focus();
-
-		        //$('#newlist').on('click', 'li.listitem', function () {
-				//$('#confirmedlist').append();
-				//});
-    		//}
-    			//$('#newlist').on('click', 'li.listitem', checkoff);
-    			
-    			//$('#list').on('click', 'button.del', deleteItem);
-		        //$('.delete').on('click', function() {
-					//$('#list2').remove();
-				//});
-    //});
-
 var shoppingApp = {
 
 	validate: function() {
 		var item = $("#newItem").val();
-		if ($.trim(item) === "") {
-			alert("Please enter something");
+		if ($.trim(item) === "" && $.trim(item) === " " && $.trim(item) === 'number') {
+			alert("Please enter a valid item");
 		} else {
             return item;
 		}
@@ -46,6 +17,9 @@ var shoppingApp = {
 		if(shoppingApp.validate()) {
 			$('#newlist').append('<li>' + checkbox + " " + item + " " + del + '</li>');
 			$('#newItem').val('');
+			$('.h3').remove();
+			$('.p').remove();
+			$('.p2').remove();
 		}
 		return false;
 	},
