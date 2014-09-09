@@ -14,7 +14,7 @@ var shoppingApp = {
 	addItem: function() {
 		var item = $("#newItem").val();
 		var checkbox = ('<input type="checkbox">');
-		var del = ('<button id="delete">Delete</button>')
+		var del = ('<button id="delete">Delete</button>');
 		if(shoppingApp.validate()) {
 			$('#newlist').append('<li>' + checkbox + " " + item + " " + del + '</li>');
 			$('#newItem').val('');
@@ -26,10 +26,6 @@ var shoppingApp = {
 		else {return false;}
 	},
 
-	// on the click of the add button adds the item to the list//
-	//submitItem: function(){
-		//$('#add').click(shoppingApp.addItem());
-	//},
 
 	//deletes items from either lists on click of the delete button//
 	deleteItem: function(event) {
