@@ -50,6 +50,15 @@ form {
 	padding: 1em 1em;
 }
 
+.warning{
+	color: red;
+	font-weight: bolder;
+	font-family: 'Ubuntu Mono';
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: capitalize;
+}
+
 label {
 	color: #fff;
 	font-family: 'Ubuntu Mono';

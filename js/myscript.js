@@ -3,8 +3,8 @@ var shoppingApp = {
 	//checks if user inputs values other than strings//
 	validate: function() {
 		var item = $("#newItem").val();
-		if ($.trim(item) === "" || $.trim(item) === " " ) {
-			alert("Please enter a valid item");
+		if ($.trim(item) === "" || $.trim(item) === " " || $.trim(item.length) < 3) {
+			$('.warning').text("Please enter a valid item");
 		} else {
             return item;
 		}
@@ -21,6 +21,7 @@ var shoppingApp = {
 			$('.h3').remove();
 			$('.p').remove();
 			$('.p2').remove();
+			$('.warning').remove();
 		}
 		else {return false;}
 	},
