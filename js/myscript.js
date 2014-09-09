@@ -55,4 +55,4 @@ var shoppingApp = {
 	},
 
 }
-$(document).ready(shoppingApp.initialize);
+$(document).ready(shoppingApp.initialize());
