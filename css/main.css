@@ -189,3 +189,7 @@ label {
 .contacts p {
 	font-size: 1em;
 }
+
+footer {
+	overflow: hidden;
+}
