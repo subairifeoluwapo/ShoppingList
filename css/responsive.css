@@ -42,6 +42,7 @@
 	#newItem {
 		margin: 0 1em;
 		width: 15em;
+		margin-left: 1.5em;
 	}
 
 	#add {
