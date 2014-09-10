@@ -77,6 +77,10 @@
 		text-align: left;
 	}
 
+	section{
+		margin-bottom: 10em;
+	}
+
 	.slogan {
 		font-size: 1em;
 	}
