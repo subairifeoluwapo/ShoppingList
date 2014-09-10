@@ -1,0 +1,83 @@
+@media screen and (max-width: 480px) {
+
+	.navBar {
+		text-align: center;
+		background-position: bottom;
+	}
+
+	.navBar ul {
+		text-align: center;
+		list-style: none;
+	}
+
+	#siteName {
+		font-family: 'Poiret One', cursive;
+		font-size: 1.8em;
+		text-align: center;
+		font-weight: bolder;
+		padding: .1em .1em;
+		margin: .1em .1em;
+	}
+	.navBar ul li {
+		display: inline-block;
+		padding: .1em .1em;
+		margin: .1em .5em;
+	}
+
+	form {
+		display: inline-block;
+		margin: 1em 1em;
+		padding: 1em 1em;
+	}
+
+	.warning {
+		font-size: 1em;
+	}
+
+	label {
+		margin-left: 5.5em;
+		font-size: .8em;
+	}
+
+	#newItem {
+		width: 15em;
+	}
+
+	#add {
+		font-size: .8em;
+		margin-left: 6.5em;
+	}
+
+	.validInput{
+		font-size: 1em;
+	}
+
+	.welcome {
+		margin: 0;
+	}
+
+	.newItems button { 
+		font-size: .6em
+	}
+
+	.confirmedItems button {
+		font-size: .6em
+	}
+
+	#newlist {
+		font-size: .8em;
+		text-align: left;
+	}
+
+	#confirmedlist {
+		font-size: .7em;
+		text-align: left;
+	}
+
+	.slogan {
+		font-size: 1em;
+	}
+
+
+
+}

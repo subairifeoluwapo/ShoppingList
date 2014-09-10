@@ -22,6 +22,7 @@ var shoppingApp = {
 			$('.p').remove();
 			$('.p2').remove();
 			$('.warning').remove();
+			$('footer').hide();
 		}
 		else {return false;}
 	},
@@ -47,7 +48,7 @@ var shoppingApp = {
 	initialize: function() {
 		$('#add').click(shoppingApp.addItem);
 		$('.welcome ul').on('change', 'input[type=checkbox]', shoppingApp.switching);
-		$('.welcome ul').on('click', 'button', shoppingApp.deleteItem)
+		$('.welcome ul').on('click', 'button', shoppingApp.deleteItem);
 	},
 
 }
