@@ -3,6 +3,7 @@
 	.navBar {
 		text-align: center;
 		background-position: bottom;
+		background-repeat: no-repeat;
 	}
 
 	.navBar ul {
@@ -47,7 +48,7 @@
 
 	#add {
 		font-size: .8em;
-		margin-left: 7em;
+		margin-left: 7.5em;
 	}
 
 	.validInput{
