@@ -1,3 +1,50 @@
+
+@media screen and (max-width: 980px) {
+
+
+	.navBar {
+		text-align: center;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+
+	.navBar ul {
+		text-align: center;
+		list-style: none;
+	}
+
+	.navBar ul li {
+		display: inline-block;
+		padding: .4em 1em;
+		margin: .5em .5em;
+		font-size: 1.5em;
+		padding-left: 1.5em;
+	}
+
+	#siteName {
+		font-size: 2em;
+		font-weight: bolder;
+	}
+
+
+	#add {
+		text-align: center;
+		font-size: .8em;
+		margin-left: 7.5em;
+	}
+
+	.welcome {
+		margin: auto;
+	}
+
+	section{
+		margin-bottom: 20em;
+	}
+
+}
+
+
 @media screen and (max-width: 480px) {
 
 	.navBar {
@@ -100,48 +147,3 @@
 }
 
 
-
-@media screen and (max-width: 980px) {
-
-
-	.navBar {
-		text-align: center;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-
-
-	.navBar ul {
-		text-align: center;
-		list-style: none;
-	}
-
-	.navBar ul li {
-		display: inline-block;
-		padding: .4em 1em;
-		margin: .5em .5em;
-		font-size: 1.5em;
-		padding-left: 1.5em;
-	}
-
-	#siteName {
-		font-size: 2em;
-		font-weight: bolder;
-	}
-
-
-	#add {
-		text-align: center;
-		font-size: .8em;
-		margin-left: 7.5em;
-	}
-
-	.welcome {
-		margin: auto;
-	}
-
-	section{
-		margin-bottom: 20em;
-	}
-
-}
