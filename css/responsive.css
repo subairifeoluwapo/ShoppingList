@@ -59,8 +59,18 @@
 		margin: 0;
 	}
 
+
+	.newItems {
+		max-height: 9em;
+	}
+
 	.newItems button { 
 		font-size: .6em
+	}
+
+
+	.confirmedItems {
+		max-height: 9em;
 	}
 
 	.confirmedItems button {
@@ -68,12 +78,12 @@
 	}
 
 	#newlist {
-		font-size: .8em;
+		font-size: 1em;
 		text-align: left;
 	}
 
 	#confirmedlist {
-		font-size: .7em;
+		font-size: 1em;
 		text-align: left;
 	}
 
@@ -86,5 +96,52 @@
 	}
 
 
+
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+
+	.navBar {
+		text-align: center;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+
+	.navBar ul {
+		text-align: center;
+		list-style: none;
+	}
+
+	.navBar ul li {
+		display: inline-block;
+		padding: .4em 1em;
+		margin: .5em .5em;
+		font-size: 1.5em;
+		padding-left: 1.5em;
+	}
+
+	#siteName {
+		font-size: 2em;
+		font-weight: bolder;
+	}
+
+
+	#add {
+		text-align: center;
+		font-size: .8em;
+		margin-left: 7.5em;
+	}
+
+	.welcome {
+		margin: auto;
+	}
+
+	section{
+		margin-bottom: 20em;
+	}
 
 }

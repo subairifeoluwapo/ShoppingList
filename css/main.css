@@ -101,7 +101,7 @@ label {
 
 .welcome {
 	background-color: rgba(0, 0, 0, .6);
-	margin: 0 20em;
+	margin: 0 15em;
 	border: solid;
 	border-color: darkgreen;
 	color: #fff;
@@ -116,6 +116,9 @@ label {
 
 .newItems {
 	color: #fff;
+	min-width: 15em;
+	max-height: 10em;
+	overflow: auto;
 }
 
 .newItems ul {
@@ -133,6 +136,9 @@ label {
 
 .confirmedItems {
 	color: #fff;
+	min-width: 15em;
+	max-height: 10em;
+	overflow: auto;
 }
 
 .confirmedItems ul {
